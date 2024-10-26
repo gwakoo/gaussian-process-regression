@@ -1,0 +1,13 @@
+streamlit
+numpy
+pandas
+scikit-learn
+matplotlib
+yfinance
+
+try:
+    # Your code here
+except Exception as e:
+    st.error(f"An error occurred: {e}")
+
+streamlit==1.22.0
